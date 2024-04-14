@@ -1,0 +1,89 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .amatic-sc-bold {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-weight: 400;
+    height: 100vh;
+    color: #333;
+    /* background: linear-gradient(to top left, #753682 0%, #bf2e34 100%); */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgb(248, 168, 48) 0%,
+      rgb(245, 248, 84) 59%,
+      rgb(224, 250, 152) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* main */
+  main {
+    position: relative;
+    width: 100rem;
+    height: 60rem;
+    background: rgba(236, 51, 45, 0.342);
+    backdrop-filter: blur(200);
+    filter: blur();
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+    border-right: 9px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 5px;
+  }
+
+
+
+.btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #444;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.2s;
+    padding: 10px;
+  }
+
+
+  .btn_new {
+    top: 4rem;
+    background-color: rgb(239, 240, 228);
+  }
+  
+  .btn_play {
+    top: 39.3rem;
+    background-color: rgb(194, 123, 56) ;
+  }
+  
+  .btn_hold {
+    top: 46.1rem;
+    background-color: rgb(179, 94, 14);
+  }
+
+  .btn:active {
+    transform: translate(-50%, 3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
