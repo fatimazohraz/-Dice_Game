@@ -28,7 +28,7 @@ const init = function () {
   scorePlayer2.textContent = 0;
   diceImg.classList.add("hidden");
 
-  scores = [0,0];
+  scores = [0,0,0];
   activePlayer = 1;
   currentScore = 0;
   playGame = true;
