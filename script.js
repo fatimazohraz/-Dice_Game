@@ -65,7 +65,7 @@ btnplay.addEventListener("click", function () {
     const dice = Math.floor(Math.random() * 6) + 1;
 
     //2. display random image
-    diceImg.src = `./image/dice-${dice}.png`;
+    diceImg.src = `image/dice-${dice}.png`;
 
     //3. check for rolled 1
     if (dice !== 1) {
