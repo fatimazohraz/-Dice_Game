@@ -173,3 +173,81 @@
   .hidden {
     display: none;
   }
+
+  @media screen and ( max-width:680px) {
+    html{
+      font-size: 50%;
+    }
+
+     body {
+      font-weight: 200;
+    }
+    main{
+      height: 100vh;
+      flex-direction: column;
+    }
+    .player {
+      width: 100%;
+      padding: 2rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;     
+      align-items: center;
+      text-align: center;
+
+      
+    }
+    
+    .score {
+      position: relative;
+      padding: 10px;
+      top: 12rem;
+      width: 30%;
+      font-size: 4rem;
+      font-weight: 200;
+      text-align: center;
+      align-self: center;
+      
+    }
+    .current {
+
+      width: 30%;
+      padding: 2rem;
+      text-align: center;
+      transition: all 0.75s;
+    }
+    img{
+      
+      left: 50%;
+      top: 30rem;
+     
+      
+    }
+    .btn {
+      position: absolute;
+      left: 50%;
+      font-family: inherit;
+      font-size: 1.8rem;
+      font-weight: 400;
+      padding: 10px;
+    }
+  
+  
+    .btn_new {
+      top: 33rem;
+      left: 85%;
+    }
+    
+    .btn_play {
+      top: 30rem;
+      left: 15%;
+    }
+    
+    .btn_save {
+      top:38rem;
+      left: 15%;
+
+    }
+  
+  
+  }
