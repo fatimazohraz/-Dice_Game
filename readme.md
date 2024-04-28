@@ -19,4 +19,4 @@ https://github.com/fatimazohraz/-Dice_Game
 ## deployement
 j'ai deplayer le repository sur le site netlify: https://www.netlify.com/
 
-lien du site:
+lien du site:  https://dicegame-fz.netlify.app/
